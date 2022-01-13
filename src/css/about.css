@@ -1,0 +1,607 @@
+:root {
+  --mainabout: flex;
+  --mainnav: space-between;
+  --mainnavbar: row;
+  --maincolor: #ffffff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: Poppins, sans-serif;
+}
+.containor {
+  height: 400vh;
+}
+/*top-header*/
+.navbar {
+  display: var(--mainabout);
+  justify-content: var(--mainnav);
+  background-color: #025b5e;
+  box-shadow: 0 1px 8px 0 rgb(0 0 0 / 58%);
+  padding: 5px;
+}
+.navbar-text {
+  display: var(--mainabout);
+  justify-content: var(--mainnav);
+  margin-left: 25px;
+}
+.sub-menu-1 {
+  display: none;
+}
+.nav-bottom-title ul li:hover .sub-menu-1 {
+  display: block;
+  position: absolute;
+  background: #b6740a;
+
+  margin-top: 10px;
+}
+.nav-bottom-title ul li:hover .sub-menu-1 ul {
+  display: block;
+  margin-right: 100px;
+  text-align: center;
+  height: 15vh;
+  width: 20px;
+}
+.nav-bottom-title li:hover .sub-menu-1 ul li {
+  padding: 5px;
+}
+.nav-bottom-title li:hover .sub-menu-1 ul li a {
+  color: whitesmoke;
+  font-size: 16px;
+}
+
+i {
+  padding-right: 5px;
+  font-size: 16px;
+}
+.nav-containor {
+  margin: 10px;
+}
+.nav-item ul {
+  display: var(--mainabout);
+  justify-content: var(--mainnav);
+  padding-right: 15px;
+  cursor: pointer;
+  list-style: none;
+  margin: 10px;
+}
+.nav-item ul li a.active,
+.nav-item ul li a:hover {
+  border: 1px solid #b6740a;
+  border-radius: 2px;
+}
+.nav-bottom-title ul li a {
+  padding: 20px;
+  border-bottom: 5px solid transparent;
+}
+.nav-bottom-title ul li a:hover {
+  border-bottom: 2px solid #b6740a;
+}
+
+.nav-item ul li a {
+  color: #ffffff;
+  margin: 1em;
+  text-decoration: none;
+  padding: 5px 13px;
+}
+.nav-item:hover {
+  color: black;
+}
+.nav-containor h4 {
+  color: var(--maincolor);
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+}
+.nav-item h3 {
+  margin: 10px;
+  font-size: 16px;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+}
+.hamburger {
+  display: none;
+}
+.hamburger {
+  cursor: pointer;
+  width: 20px;
+  height: 30px;
+  position: relative;
+  background: none;
+  border: none;
+  z-index: 10;
+  transition: all 0.25s;
+  padding-right: 50px;
+  color: black;
+}
+.hamburger-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 2px;
+  background: black;
+  transform: rotate(45deg) translateY(6px) translateX(6px);
+  transition: all 0.5s;
+}
+.hamburger-middle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 2px;
+  background: black;
+  transition: all 0.5s;
+  transform: rotate(-45deg) translateY(6px) translateX(-6px);
+}
+
+.hamburger-bottom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 2px;
+  background: black;
+  transition: all 0.5s;
+  transform: rotate(-45deg) translateY(6px) translateX(-6px);
+}
+.open .hamburger-top {
+  background: black;
+  transform: rotate(0);
+}
+.open .hamburger-middle {
+  background: black;
+  transform: translateY(7px);
+  display: block;
+}
+.open .hamburger-bottom {
+  background: black;
+  transform: translateY(14px);
+}
+
+.mobile-menu {
+  display: none;
+}
+/*navsection*/
+.image-field {
+  background-image: url(http://landing.engotheme.com/html/lotus/demo/images/banner/img-9.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  background-repeat: no-repeat;
+
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.nav-bottom-text {
+  display: var(--mainabout);
+  justify-content: var(--mainnav);
+  background-color: var(--maincolor);
+  box-shadow: 0 1px 8px 0 rgb(0 0 0 / 58%);
+}
+
+.nav-bottom-title ul {
+  display: var(--mainabout);
+}
+.nav-bottom-title ul li {
+  margin: 20px;
+  list-style: none;
+  /* padding-right: 40px;*/
+}
+.nav-img img {
+  margin: 0px 30px;
+}
+.nav-bottom-title ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  cursor: pointer;
+}
+.nav-bottom-page {
+  color: var(--maincolor);
+  display: var(--mainabout);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4em;
+}
+.nav-bottom-page h1 {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+}
+.nav-bottom-page p {
+  font-size: 30px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: Hind;
+  margin: 10px;
+}
+/*about-section*/
+.about-section {
+  display: var(--mainabout);
+  margin-top: 3em;
+}
+.about-img img {
+  height: 450px;
+  width: 600px;
+  margin-left: 2em;
+}
+.about-section-text h1 {
+  margin: 1em;
+}
+.about-section-text h1 {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  margin-left: 25px;
+}
+.about-section-text p {
+  margin: 25px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  color: #333333;
+  font-family: Hind;
+}
+
+.about-info {
+  display: var(--mainabout);
+  margin: 2em;
+}
+/*.active,
+h3:hover {
+  background-color: #04aa6d;
+  border-radius: 3px;
+}*/
+.about-info .about-area {
+  padding-top: 3em;
+}
+.about-area h1 {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+}
+.about-area p {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  color: #333333;
+  padding-top: 25px;
+  font-family: Hind;
+}
+/*about-statistics*/
+.about-statistics {
+  background-image: url(http://landing.engotheme.com/html/lotus/demo/images/banner/img-10.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50vh;
+}
+.about-field-1 {
+  background: #48484899;
+  height: 50vh;
+}
+.about-title {
+  text-align: center;
+  padding-top: 30px;
+  color: var(--maincolor);
+  font-size: 25px;
+}
+.about-statistics-title {
+  display: var(--mainabout);
+  justify-content: space-around;
+}
+.about-hotel {
+  color: var(--maincolor);
+  margin: 50px;
+}
+.about-hotel h2 {
+  text-align: center;
+  font-size: 60px;
+}
+.about-hotel h3 {
+  text-align: center;
+  font-size: 18px;
+}
+/*member-section*/
+.member-section {
+  text-align: center;
+  margin-top: 40px;
+}
+.member-section h1 {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+}
+.member-section p {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  color: #333333;
+  margin: 15px;
+}
+.member-img {
+  margin-top: 1em;
+}
+.member-area {
+  display: var(--mainabout);
+  text-align: center;
+}
+.object-fit-cover {
+  object-fit: cover;
+}
+
+.member-info {
+  text-align: center;
+  margin: 2em;
+}
+.member-img img:hover {
+  border-color: #b6740a;
+
+  cursor: pointer;
+}
+.member-img img {
+  transition: all 0.9s ease-in-out;
+  border: 2px solid transparent;
+  border-radius: 50%;
+}
+
+.member-info h1 {
+  font-size: 20px;
+  color: #232323;
+  font-weight: 700;
+}
+.member-info h5 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  color: #898989;
+  margin: 1em;
+}
+.member-info p {
+  font-size: 15px;
+  font-style: normal;
+  color: #30373b;
+  line-height: 23px;
+}
+.member-icon i {
+  font-size: 20px;
+  cursor: pointer;
+  color: #b6740a;
+}
+
+/*footet*/
+.section-footer {
+  background-image: url(http://landing.engotheme.com/html/lotus/demo/images/home-3/footer/footer-center.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer-area {
+  padding-top: 80px;
+}
+.footer-field h1 {
+  padding-bottom: 60px;
+}
+.section-footer {
+  display: var(--mainabout);
+  justify-content: space-between;
+  color: whitesmoke;
+}
+.section-content {
+  margin-left: 50px;
+}
+.section-hotel {
+  padding-top: 90px;
+}
+
+.section-content h5 {
+  padding-top: 30px;
+  font-size: 15px;
+  font-weight: 400;
+}
+.footer-icon {
+  margin-left: 10px;
+  padding-top: 50px;
+}
+.footer-icon i {
+  padding-right: 15px;
+}
+.section-content {
+  padding-top: 10px;
+}
+
+.footer-tag i {
+  margin-left: 10px;
+}
+.section-content ul {
+  list-style: none;
+  padding-top: 20px;
+}
+.section-content ul li {
+  padding: 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.section-content h1 {
+  margin-left: 10px;
+  padding-top: 55px;
+}
+.section-content ul li:hover {
+  color: #b6740a;
+}
+.section-content {
+  list-style: none;
+}
+.section-content ul li:hover {
+  color: #b6740a;
+}
+.section-content h2 {
+  padding-right: 50px;
+  padding-top: 55px;
+  margin-left: 10px;
+}
+.section-test {
+  padding-top: 60px;
+}
+.section-content h1 {
+  margin-left: 10px;
+  padding-top: 60px;
+}
+
+.footer-bottom {
+  background-color: black;
+  color: white;
+  padding: 1em;
+  text-align: center;
+  color: #acacac;
+  font-size: 14px;
+}
+
+.footer-bootom-2 img {
+  margin-left: 1em;
+}
+
+/*media-query*/
+@media only screen and (max-width: 700px) {
+  .nav-bottom-page h1 {
+    font-size: 20px;
+  }
+  .nav-bottom-page p {
+    font-size: 13px;
+  }
+  .about-section-text h1 {
+    font-size: 25px;
+  }
+  .about-section-text p {
+    font-size: 20px;
+  }
+  .about-title h1 {
+    font-size: 20px;
+  }
+  .section-content h1 {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .navbar {
+    display: none;
+  }
+  .nav-bottom-title {
+    display: none;
+  }
+  .nav-img img {
+    height: 40px;
+  }
+  .image-field {
+    height: 200px;
+  }
+  .nav-bottom-page {
+    margin-top: 2em;
+    padding-top: 5em;
+  }
+  .about-section {
+    flex-direction: column;
+  }
+  .about-img img {
+    max-width: 80%;
+    height: auto;
+  }
+  .about-section-col {
+    display: none;
+  }
+  .about-info {
+    flex-direction: column-reverse;
+  }
+
+  .section-content {
+    margin-left: 30px;
+  }
+  .about-info-text img {
+    max-width: 100%;
+    height: auto;
+  }
+  .about-area h1 {
+    font-size: 20px;
+  }
+  .about-statistics-title {
+    flex-direction: column;
+  }
+  .about-statistics {
+    height: 800px;
+  }
+  .about-field-1 {
+    height: 150vh;
+  }
+  .member-area {
+    flex-direction: column;
+  }
+  .nav-bottom-text {
+    height: 50px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .section-footer {
+    flex-direction: column;
+  }
+
+  .section-icon {
+    padding: 30px;
+  }
+  .section-icon img {
+    height: 70px;
+  }
+  .section-test img {
+    height: 70px;
+    width: 100px;
+  }
+  .member-section {
+    margin-top: 180px;
+  }
+  @media screen and (max-width: 768px) {
+    .nav-content {
+      display: none;
+    }
+    .mobile-menu {
+      position: absolute;
+      right: 0px;
+      top: 9vh;
+      height: 65vh;
+      background-color: #b6740a;
+      cursor: pointer;
+      width: 50%;
+    }
+    .mobile-menu {
+      display: block;
+    }
+
+    .hamburger {
+      display: block;
+      margin-left: 90px;
+      margin-top: 15px;
+    }
+    .hidden {
+      transform: translateX(120%);
+    }
+    .mobile-menu a {
+      text-decoration: none;
+      font-size: 15px;
+      color: #ffffff;
+    }
+    .mobile-menu ul li {
+      text-align: center;
+      margin: 30px 0px;
+      list-style: none;
+    }
+    .mobile-menu ul li:hover {
+      display: block;
+      background-color: rgba(122, 111, 111, 0.5);
+      cursor: pointer;
+      padding: 10px;
+    }
+  }
+}

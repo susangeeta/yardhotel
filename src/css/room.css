@@ -1,0 +1,511 @@
+:root {
+  --mainabout: flex;
+  --mainnav: space-between;
+  --mainnavbar: row;
+  --maincolor: #ffffff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: Poppins, sans-serif;
+}
+.containor {
+  height: 400vh;
+}
+.navbar {
+  display: var(--mainabout);
+  justify-content: var(--mainnav);
+  background-color: #025b5e;
+  box-shadow: 0 1px 8px 0 rgb(0 0 0 / 58%);
+  color: whitesmoke;
+}
+i {
+  padding-right: 5px;
+  font-size: 16px;
+}
+.navbar-text {
+  display: var(--mainabout);
+  margin-left: 2em;
+}
+.nav-item ul {
+  display: var(--mainabout);
+  justify-content: var(--mainnav);
+  padding-right: 15px;
+  cursor: pointer;
+  list-style: none;
+  margin-top: 1em;
+}
+.nav-containor {
+  margin: 15px;
+}
+.nav-item ul li a.active,
+.nav-item ul li a:hover {
+  border: 1px solid #b6740a;
+  border-radius: 2px;
+}
+.nav-bottom-title ul li a {
+  padding: 10px;
+  border-bottom: 5px solid transparent;
+}
+
+.nav-item ul li a {
+  color: #ffffff;
+  margin: 1em;
+  text-decoration: none;
+  padding: 5px 13px;
+}
+.nav-bottom-title ul li a {
+  padding: 20px;
+  border-bottom: 2px solid transparent;
+}
+.nav-bottom-title ul li a:hover {
+  border-bottom: 2px solid #b6740a;
+}
+
+.image-field {
+  background-image: url(http://demo2.themelexus.com/erios/wp-content/uploads/2019/12/rooms-breadcrumbs.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  background-repeat: no-repeat;
+}
+.nav-bottom-text {
+  display: var(--mainabout);
+  justify-content: var(--mainnav);
+  background-color: var(--maincolor);
+  box-shadow: 0 1px 8px 0 rgb(0 0 0 / 58%);
+}
+
+.nav-bottom-title ul {
+  display: var(--mainabout);
+}
+.nav-bottom-title ul li {
+  margin: 20px;
+  list-style: none;
+}
+.nav-img img {
+  margin: 0px 30px;
+}
+.nav-bottom-title ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+}
+.nav-bottom-page {
+  color: var(--maincolor);
+  display: var(--mainabout);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nav-bottom-page h1 {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 3em;
+}
+.nav-bottom-page p {
+  font-size: 30px;
+  font-weight: 400;
+  font-style: normal;
+  margin: 10px;
+}
+.sub-menu-1 {
+  display: none;
+}
+.nav-bottom-title ul li:hover .sub-menu-1 {
+  display: block;
+  position: absolute;
+  background: #b6740a;
+
+  margin-top: 10px;
+}
+.nav-bottom-title ul li:hover .sub-menu-1 ul {
+  display: block;
+  margin-right: 100px;
+  text-align: center;
+  height: 15vh;
+  width: 20px;
+}
+.nav-bottom-title li:hover .sub-menu-1 ul li {
+  padding: 5px;
+}
+.nav-bottom-title ul li:hover .sub-menu-1 ul li a {
+  color: whitesmoke;
+  font-size: 16px;
+}
+.hamburger {
+  display: none;
+}
+.hamburger {
+  cursor: pointer;
+  width: 20px;
+  height: 30px;
+  position: relative;
+  background: none;
+  border: none;
+  z-index: 10;
+  transition: all 0.25s;
+  padding-right: 50px;
+  color: black;
+}
+.hamburger-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 2px;
+  background: black;
+  transform: rotate(45deg) translateY(6px) translateX(6px);
+  transition: all 0.5s;
+}
+.hamburger-middle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 2px;
+  background: black;
+  transition: all 0.5s;
+  transform: rotate(-45deg) translateY(6px) translateX(-6px);
+}
+
+.hamburger-bottom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 2px;
+  background: black;
+  transition: all 0.5s;
+  transform: rotate(-45deg) translateY(6px) translateX(-6px);
+}
+.open .hamburger-top {
+  background: black;
+  transform: rotate(0);
+}
+.open .hamburger-middle {
+  background: black;
+  transform: translateY(7px);
+  display: block;
+}
+.open .hamburger-bottom {
+  background: black;
+  transform: translateY(14px);
+}
+
+.mobile-menu {
+  display: none;
+}
+/*room-section*/
+.section-room {
+  background-image: url(http://landing.engotheme.com/html/lotus/demo/images/room/list/img-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 500px;*/
+  margin: 2em;
+}
+.section-containor {
+  margin-left: 2em;
+}
+.section-text {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 500px;
+  width: 40%;
+}
+.section-area {
+  display: var(--mainabout);
+}
+.section-room {
+  margin-top: 3em;
+}
+.section-text {
+  color: whitesmoke;
+}
+.section-text h2 {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  padding-top: 1em;
+}
+.section-text h2:hover {
+  color: #e3c28e;
+}
+.section-text h6 {
+  font-size: 18px;
+  color: #e3c28e;
+  font-style: normal;
+  font-weight: 400;
+}
+.section-text p {
+  font-size: 18px;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 1em;
+}
+
+.section-field ul li {
+  margin-top: 2em;
+  list-style: none;
+}
+.section-field ul li a {
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 18px;
+  font-style: normal;
+}
+.button {
+  padding-top: 2em;
+}
+.btn {
+  padding: 10px;
+}
+.wrapper-btn {
+  padding-top: 26px;
+}
+.button-grid {
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: none;
+  background-color: #b6740a;
+  font-size: 17px;
+  color: whitesmoke;
+  cursor: pointer;
+}
+/*hotel-section*/
+.room-item {
+  background-image: url(http://landing.engotheme.com/html/lotus/demo/images/room/list/img-2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  margin: 2em;
+}
+.room-area {
+  display: var(--mainabout);
+  justify-content: space-between;
+}
+.section-footer {
+  background-image: url(http://landing.engotheme.com/html/lotus/demo/images/home-3/footer/footer-center.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer-area {
+  padding-top: 80px;
+}
+.section-footer {
+  display: var(--mainabout);
+  justify-content: space-between;
+  color: whitesmoke;
+}
+.section-content {
+  margin-left: 50px;
+}
+.section-hotel {
+  padding-top: 90px;
+}
+
+.section-content h5 {
+  padding-top: 30px;
+  font-size: 15px;
+  font-weight: 400;
+}
+.footer-icon {
+  margin-left: 10px;
+  padding-top: 50px;
+}
+.footer-icon i {
+  padding-right: 15px;
+}
+.section-content {
+  padding-top: 10px;
+}
+
+.footer-tag i {
+  margin-left: 10px;
+}
+.section-content ul {
+  list-style: none;
+  padding-top: 20px;
+}
+.section-content ul li {
+  padding: 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.section-content h1 {
+  margin-left: 10px;
+  padding-top: 55px;
+}
+.section-content ul li:hover {
+  color: #b6740a;
+}
+.section-content {
+  list-style: none;
+}
+.section-content ul li:hover {
+  color: #b6740a;
+}
+.section-content h2 {
+  padding-right: 50px;
+  padding-top: 55px;
+  margin-left: 10px;
+}
+.section-test {
+  padding-top: 60px;
+}
+.section-content h1 {
+  margin-left: 10px;
+  padding-top: 60px;
+}
+.footer-field h1 {
+  padding-top: 20px;
+}
+.footer-bootom-2 img {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.footer-bottom {
+  background-color: black;
+  color: white;
+  padding: 1em;
+  text-align: center;
+  color: #acacac;
+  font-size: 14px;
+}
+.footer-field h1 {
+  padding-top: 1em;
+}
+.footer-bootom-2 img {
+  margin-left: 1em;
+}
+@media only screen and (max-width: 500px) {
+  .nav-bottom-page h1 {
+    font-size: 20px;
+  }
+  .nav-bottom-page p {
+    font-size: 15px;
+  }
+  .section-text h6 {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .navbar {
+    display: none;
+  }
+  .wrapper-btn {
+    padding-top: 10px;
+  }
+  .section-field ul li {
+    margin-top: 0.7em;
+  }
+
+  .section-text h2 {
+    font-size: 15px;
+  }
+  .nav-bottom-title {
+    display: none;
+  }
+  .nav-img img {
+    height: 40px;
+  }
+  .section-room {
+    height: 80vh;
+    width: 80%;
+  }
+  .section-text p {
+    font-size: 14px;
+    padding-top: 0px;
+  }
+  .nav-bottom-text {
+    height: 50px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .section-field ul li {
+    margin-top: 0.5em;
+  }
+  .section-text {
+    height: 80vh;
+  }
+  .image-field {
+    height: 200px;
+  }
+  .section-content-1 {
+    display: none;
+  }
+  .section-containor {
+    width: 60%;
+  }
+  .section-text {
+    width: 100%;
+  }
+  .section-footer {
+    flex-direction: column;
+  }
+  .section-test img {
+    height: 80px;
+  }
+  .section-content {
+    margin-left: 30px;
+  }
+  .section-icon {
+    padding: 30px;
+  }
+  .section-icon img {
+    height: 70px;
+  }
+  .nav-bottom-page h1 {
+    padding-top: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .nav-content {
+    display: none;
+  }
+  .mobile-menu {
+    position: absolute;
+    right: 0px;
+    top: 9vh;
+    height: 65vh;
+    background-color: #b6740a;
+    cursor: pointer;
+    width: 50%;
+  }
+  .mobile-menu {
+    display: block;
+  }
+
+  .hamburger {
+    display: block;
+    margin-left: 90px;
+    margin-top: 15px;
+  }
+  .hidden {
+    transform: translateX(120%);
+  }
+  .mobile-menu a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #ffffff;
+  }
+  .mobile-menu ul li {
+    text-align: center;
+    margin: 30px 0px;
+    list-style: none;
+  }
+  .mobile-menu ul li:hover {
+    display: block;
+    background-color: rgba(122, 111, 111, 0.5);
+    cursor: pointer;
+    padding: 10px;
+  }
+}
