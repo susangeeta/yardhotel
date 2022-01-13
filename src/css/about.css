@@ -276,7 +276,7 @@ h3:hover {
 }
 /*about-statistics*/
 .about-statistics {
-  background-image: url(http://landing.engotheme.com/html/lotus/demo/images/banner/img-10.jpg);
+  background-image: url(../img/img-10.png);
   background-position: center;
   background-repeat: no-repeat;
   height: 50vh;
@@ -376,7 +376,7 @@ h3:hover {
 
 /*footet*/
 .section-footer {
-  background-image: url(http://landing.engotheme.com/html/lotus/demo/images/home-3/footer/footer-center.png);
+  background-image: url(../img/img-9.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
