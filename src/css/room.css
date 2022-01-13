@@ -66,7 +66,7 @@ i {
 }
 
 .image-field {
-  background-image: url(http://demo2.themelexus.com/erios/wp-content/uploads/2019/12/rooms-breadcrumbs.jpg);
+  background-image: url(../img/rooms-breadcrumbs.png);
   background-position: center;
   background-size: cover;
   height: 300px;
@@ -203,7 +203,7 @@ i {
 }
 /*room-section*/
 .section-room {
-  background-image: url(http://landing.engotheme.com/html/lotus/demo/images/room/list/img-1.jpg);
+  background-image: url(../img/img-11.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -280,7 +280,7 @@ i {
 }
 /*hotel-section*/
 .room-item {
-  background-image: url(http://landing.engotheme.com/html/lotus/demo/images/room/list/img-2.jpg);
+  background-image: url(../img/img-13.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -292,7 +292,7 @@ i {
   justify-content: space-between;
 }
 .section-footer {
-  background-image: url(http://landing.engotheme.com/html/lotus/demo/images/home-3/footer/footer-center.png);
+  background-image: url(../img/footer-img.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
