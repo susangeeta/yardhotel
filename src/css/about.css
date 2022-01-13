@@ -168,7 +168,7 @@ i {
 }
 /*navsection*/
 .image-field {
-  background-image: url(http://landing.engotheme.com/html/lotus/demo/images/banner/img-9.jpg);
+  background-image: url(../img/img-9.png);
   background-position: center;
   background-size: cover;
   height: 300px;
