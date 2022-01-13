@@ -17,7 +17,7 @@ body {
 }*/
 /*top-header*/
 .image-field {
-  background-image: url(http://landing.engotheme.com/html/lotus/demo/images/banner/img-12.jpg);
+  background-image: url(../img/bed.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -298,7 +298,7 @@ i {
 
 /*footer*/
 .section-footer {
-  background-image: url(http://landing.engotheme.com/html/lotus/demo/images/home-3/footer/footer-center.png);
+  background-image: url(../img/footer-img.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
