@@ -406,7 +406,7 @@ article p {
   font-size: 18px;
 }
 .section-testing {
-  background-image: url("http://landing.engotheme.com/html/lotus/demo/images/home-3/bgr-guest-book.png");
+  background-image: url(../img/img-4.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -459,7 +459,7 @@ article p {
   padding-top: 10px;
 }
 .section-footer {
-  background-image: url(http://landing.engotheme.com/html/lotus/demo/images/home-3/footer/footer-center.png);
+  background-image: url(../img/footer-img.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
