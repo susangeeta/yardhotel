@@ -570,6 +570,7 @@ h3:hover {
   }
   .nav-img img {
     height: 40px;
+    margin-top: 10px;
   }
   .image-field {
     height: 200px;
@@ -615,7 +616,7 @@ h3:hover {
     flex-direction: column;
   }
   .nav-bottom-text {
-    height: 50px;
+    height: 60px;
     position: fixed;
     top: 0;
     width: 100%;
@@ -645,7 +646,7 @@ h3:hover {
     .hamburger {
       display: block;
       margin-right: 30px;
-      margin-top: 15px;
+      margin-top: 20px;
     }
   
     .sub-menu-1 {

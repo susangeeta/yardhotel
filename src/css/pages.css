@@ -677,6 +677,7 @@ i {
     }
     .nav-img img {
       height: 40px;
+      margin-top: 10px;
     }
     .image-field {
       height: 250px;
@@ -704,7 +705,7 @@ i {
       height: 70px;
     }
     .nav-bottom-text {
-      height: 50px;
+      height: 60px;
       position: fixed;
       top: 0;
       width: 100%;
@@ -790,7 +791,7 @@ i {
   .hamburger {
     display: block;
     margin-right: 30px;
-    margin-top: 15px;
+    margin-top: 20px;
   }
 
   .sub-menu-1 {
