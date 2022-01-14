@@ -464,7 +464,7 @@ article p {
   background-size: cover;
 }
 .footer-area {
-  padding-top: 80px;
+  padding-top: 40px;
 }
 .section-footer {
   display: var(--mainabout);
@@ -693,7 +693,7 @@ article p {
     display: none;
   }
   .image-field {
-    height: 70vh;
+    height: 75vh;
   }
   .grid > article {
     height: 450px;
@@ -756,8 +756,8 @@ article p {
   .mobile-menu {
     position: absolute;
     right: 0px;
-    top: 15vh;
-    height: 65vh;
+    top: 14vh;
+    height: 58vh;
     background-color: #b6740a;
     cursor: pointer;
     width: 50%;

@@ -276,7 +276,7 @@ h3:hover {
 }
 /*about-statistics*/
 .about-statistics {
-  background-image: url(../img/img-10.png);
+  background-image: url(../img/img-10\ png.jpg);
   background-position: center;
   background-repeat: no-repeat;
   height: 50vh;
@@ -383,8 +383,12 @@ h3:hover {
 .footer-area {
   padding-top: 80px;
 }
-.footer-field h1 {
+.footer-control {
   padding-bottom: 60px;
+}
+.footer-field h1 {
+  padding-bottom: 40px;
+  height: 40px;
 }
 .section-footer {
   display: var(--mainabout);
