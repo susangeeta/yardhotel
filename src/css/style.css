@@ -686,7 +686,7 @@ article p {
   }
   .about-hotel-area img {
     height: 400px;
-    width: 260px;
+    width: 280px;
     padding: 0px 25px;
   }
   .section-icon-text {
@@ -788,5 +788,29 @@ article p {
     background-color: rgb(189, 137, 75);
     cursor: pointer;
     padding: 10px;
+  }
+  .sub-menu-1 {
+    display: none;
+  }
+  .mobile-menu ul li:hover .sub-menu-1 {
+    display: block;
+    position: absolute;
+    background: #b6740a;
+
+    margin-top: 10px;
+  }
+  .mobile-menu ul li:hover .sub-menu-1 ul {
+    display: block;
+    margin-right: 100px;
+    text-align: center;
+    height: 15vh;
+    width: 20px;
+  }
+  .mobile-menu li:hover .sub-menu-1 ul li {
+    padding: 5px;
+  }
+  .mobile-menu ul li:hover .sub-menu-1 ul li a {
+    color: whitesmoke;
+    font-size: 16px;
   }
 }

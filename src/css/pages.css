@@ -810,4 +810,28 @@ i {
     cursor: pointer;
     padding: 10px;
   }
+  .sub-menu-1 {
+    display: none;
+  }
+  .nav-bottom-title ul li:hover .sub-menu-1 {
+    display: block;
+    position: absolute;
+    background: #b6740a;
+  
+    margin-top: 10px;
+  }
+  .nav-bottom-title ul li:hover .sub-menu-1 ul {
+    display: block;
+    margin-right: 100px;
+    text-align: center;
+    height: 15vh;
+    width: 20px;
+  }
+  .nav-bottom-title li:hover .sub-menu-1 ul li {
+    padding: 5px;
+  }
+  .nav-bottom-title ul li:hover .sub-menu-1 ul li a {
+    color: whitesmoke;
+    font-size: 16px;
+  }
 }
