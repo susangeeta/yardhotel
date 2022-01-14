@@ -92,7 +92,7 @@ i {
 }
 
 .image-field {
-  background-image: url(http://demo2.themelexus.com/erios/wp-content/uploads/2019/07/Contact.jpg);
+  background-image: url(../img/Contact.png);
   background-position: center;
   background-size: cover;
   height: 350px;
@@ -319,7 +319,7 @@ i {
 }
 /*footer*/
 .section-footer {
-  background-image: url(http://landing.engotheme.com/html/lotus/demo/images/home-3/footer/footer-center.png);
+  background-image: url(../img/footer-img.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
